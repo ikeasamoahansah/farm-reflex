@@ -43,12 +43,12 @@ def sidebar_footer() -> rx.Component:
     return rx.hstack(
         rx.spacer(),
         rx.link(
-            rx.text("Docs"),
+            rx.text("Riddles"),
             href="https://reflex.dev/docs/getting-started/introduction/",
             color_scheme="gray",
         ),
         rx.link(
-            rx.text("Blog"),
+            rx.text("Speed Race"),
             href="https://reflex.dev/blog/",
             color_scheme="gray",
         ),
